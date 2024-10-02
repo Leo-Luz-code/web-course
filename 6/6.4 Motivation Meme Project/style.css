@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.borabilldiv {
+  margin-left: 25%;
+  margin-top: 60px;
+  text-align: center;
+  width: 50%;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+}
+
+.borabillimg {
+  width: 100%;
+  border: 5px solid white;
+}

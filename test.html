@@ -1,8 +1,68 @@
 <!DOCTYPE html>
-<natal>
-  <astro planet="saturn">
-    <sign name="gemeni">
-      <house number="5"></house>
-    </sign>
-  </astro>
-</natal>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .navBar {
+        display: inline-flex;
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        justify-content: space-around;
+      }
+      button {
+        height: 50%;
+        align-self: center;
+      }
+      .show {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 200px 200px;
+        gap: 5px;
+        background-color: white;
+        border: 5px solid white;
+      }
+      .red {
+        background-color: red;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .grey {
+        background-color: grey;
+      }
+      .green {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navBar">
+      <button>An excellent Plan</button>
+      <button>I do nothing</button>
+      <button>Try me</button>
+    </div>
+
+    <div class="show">
+      <div class="container">
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="grey"></div>
+        <div class="green"></div>
+      </div>
+    </div>
+  </body>
+</html>
